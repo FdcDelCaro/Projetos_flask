@@ -1,0 +1,3 @@
+from werkzeug.security import generate_password_hash
+print(generate_password_hash('81324336')) 
+# Saída de exemplo: pbkdf2:sha256:600000$abcdef$123456...
